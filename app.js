@@ -1,0 +1,22 @@
+const myAge = 27;
+console.log(myAge);
+// myAge est égale à 27 ans;
+let earlyYears = 2;
+console.log(earlyYears);
+// le earlyYears est égale à 2;
+earlyYears = earlyYears * 10.5;
+console.log(earlyYears);
+let laterYears = myAge - 2;
+console.log(laterYears);
+// laterYears est de 25
+ laterYears *= 4;
+ console.log(laterYears);
+ // laterYears est de 100 pour les chien;
+ const myAgeInDogYears = earlyYears + laterYears;
+ console.log(myAgeInDogYears);
+ //myAgeInDogYears donne l'age total de mon chien;
+  myName = 'loic'.toLowerCase();
+  console.log(myName);
+  //  myName renvoie mon prénom;
+  console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+// le dernier consolelog renvoie cette phrase avec toute les variables que j'ai fait ci-dessus.;
